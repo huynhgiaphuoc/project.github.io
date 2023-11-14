@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-fix">
+                <img src="img/img4/Picture28.png" class="pictureofpro">
+            </div>
+            <div class="col-sm-8 col-fix">
+                <p class="Prodetail-name">Aglaonema rotundum</p>
+                <p class="Prodetail-price">Price: 10$</p>
+                <div class="Prodetail-care">
+                    <p class="title">How to care:</p>
+                    <p>Plant care is extremely simple and almost no care. You only need to note one point that is the
+                        condition where the tree is located. The plant should be kept in a well-ventilated place. cool,
+                        with lots of soft light. If left in a dark room, you should install more photosynthetic lights
+                        for plants.Temperature</p>
+                </div>
+
+                <p class="Prodetail-des">Plant care is extremely simple and almost no care. You only need to note one point that is the
+                    condition where the tree is located. The plant should be kept in a well-ventilated place. cool,
+                    with lots of soft light. If left in a dark room, you should install more photosynthetic lights
+                    for plants.Temperature</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 fix-col">
+            <div class="product-item">
+                <img class="picture" src="img/img4/Picture28.png" alt="">
+                <p class="product-item_name"> Aglaonema rotundum</p>
+                <p class="product-item_price">15$</p>
+                <p class="size">Type:
+                    <input class="radio-ver" type="radio"><label class="radio-content color-seed">Seed</label>
+                    <input class="radio-ver" type="radio"><label class="radio-content color-tree">Tree</label>
+                </p>
+                <a class="btn btn-primary btn-details" href="#aquanticplantdetail.html">Details</a>
+            </div>
+        </div>
+        <div class="col-lg-3 fengshui fix-col">
+            <div class="product-item">
+                <img class="picture" src="img/img4/Picture29.png" alt="">
+                <p class="product-item_name">Pachira Aquatica</p>
+                <p class="product-item_price">15$</p>
+                <p class="size">Type:
+                    <input class="radio-ver" type="radio"><label class="radio-content color-seed">Seed</label>
+                    <input class="radio-ver" type="radio"><label class="radio-content color-tree">Tree</label>
+                </p>
+                <a class="btn btn-primary btn-details" href="">Details</a>
+            </div>
+        </div>
+        <div class="col-lg-3 fengshui fen-fix fix-col">
+            <div class="product-item">
+                <img class="picture" src="img/img4/Picture30.png" alt="">
+                <p class="product-item_name">Philodendron Imperial</p>
+                <p class="product-item_price">15$</p>
+                <p class="size">Type:
+                    <input class="radio-ver" type="radio"><label class="radio-content color-seed">Seed</label>
+                    <input class="radio-ver" type="radio"><label class="radio-content color-tree">Tree</label>
+                </p>
+                <a class="btn btn-primary btn-details" href="">Details</a>
+            </div>
+        </div>
+        <div class="col-lg-3 fengshui fen-fix fix-col">
+            <div class="product-item">
+                <img class="picture" src="img/img4/Picture31.png" alt="">
+                <p class="product-item_name">Monstera Albo Tree</p>
+                <p class="product-item_price">15$</p>
+                <p class="size">Type:
+                    <input class="radio-ver" type="radio"><label class="radio-content color-seed">Seed</label>
+                    <input class="radio-ver" type="radio"><label class="radio-content color-tree">Tree</label>
+                </p>
+                <a class="btn btn-primary btn-details" href="">Details</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var header = document.getElementById('header');
+    var mobileMenu1 = document.getElementById('mobile-menu');
+    console.log(mobileMenu1);
+    var headerHeight = header.clientHeight;
+
+    //close menu
+    mobileMenu1.onclick = function () {
+        var isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+            header.style.height = '570px';
+        } else {
+            header.style.height = null;
+        }
+    }
+
+    //auto close click select
+    var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+    for (var i = 0; i < menuItems.length; i++) {
+        var menuItem = menuItems[i];
+
+        menuItem.onclick = function () {
+            var isParenMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+            if (isParenMenu) {
+                event.preventDefault();
+            } else {
+                header.style.height = null;
+            }
+        }
+    }
+</script>
+
+<script>
+    $(function () {
+        $("body").on("click", "a", function () {
+            var att = $(this).attr("href");
+            var filter = att.slice(1, att.length);
+            console.log(filter);
+$("#div-load").load(filter);
+        });
+    });
+</script>
+<script>
+
+</script>
+
+</html>

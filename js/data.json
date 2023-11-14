@@ -1,0 +1,74 @@
+[
+        {
+            "ID": "T01",
+            "Name": "Monstera Albo Tree",
+            "Origin": "Latin",
+            "Take care": "European tropics",
+            "Image": "img/49.jpg",
+            "Price": "10$",
+            "Desciption": null
+        },
+        {
+            "ID": "T02",
+            "Name": "Kim ngan",
+            "Origin": "Central-South American",
+            "Take care": "Bonsai : Plants in small pots or aquariums. The trunk is twisted together, the leaves are green and luxuriant with about 5-7 leaves per branch.",
+            "Image": "img/26.jpg",
+            "Price": "15$",
+            "Desciption": "Kim Ngan is a shade plant, likes low light, so it can still grow well when grown indoors. Honeysuckle has 2 forms:"
+        },
+        {
+            "ID": "T03",
+            "Name": "Tree of Happiness",
+            "Origin": "Southeast Asia and China.",
+            "Take care": "Trees in the wild : Trees can grow up to 18m tall, the tree can flower and bear fruit.",
+            "Image": "img/29.jpg",
+            "Price": "20$",
+            "Desciption": "The happy tree has good vitality, so it can be grown all year round. However, the most suitable time is in the rainy season.\n\nTechniques for planting trees of happiness\nThere are two common growing methods:  growing by seedlings and cuttings."
+        },
+        {
+            "ID": "T04",
+            "Name": "The rich tree",
+            "Origin": "indonesia",
+            "Take care": "The rich tree is very easy to grow, there are two ways to grow this plant: in soil or aquatic.",
+            "Image": "img/28.jpg",
+            "Price": "30$",
+            "Desciption": "    the plant has a pinkish-white herbaceous color, green leaves with a red-pink border, the average height of the tree is about 35 -50 cm . The tree has bunched roots, white at first then turns green , usually rich flowers bloom in the summer , are pale yellow and leave orange or red when faded."
+        },
+        {
+            "ID": "T05",
+            "Name": "Terminalia catappa",
+            "Origin": "New Guinea",
+            "Take care": "Flowers bloom in summer. Unisexual flowers have the same base with male and female flowers growing on the same plant. Both flowers are about 1 cm in diameter, bluish-white, not visible, without petals; They grow on leaf axils or at the tips of branches. The fruit is a drupe 5–7 cm long and 3-5.5 cm wide, green when young, then yellow, and finally red when ripe, containing a single seed.",
+            "Image": "img/41.jpg",
+            "Price": "35$",
+            "Desciption": "The tree has a height of 1m, suitable for decorating gardens, cafes, balconies, porches. The plant likes a lot of light, easy to live and take care of"
+        },
+        {
+            "ID": "T06",
+            "Name": "The peacock's tail",
+            "Origin": "South America",
+            "Take care": "Because of the same family of herbaceous plants, whether it is a long-leaved peacock, a red peacock, a green apple or any other type of peacocktail, they all have similar planting and care methods.",
+            "Image": "img/32.jpg",
+            "Price": "40$",
+            "Desciption": "Peacock tail is a herbaceous plant that can live all year round, with an average height of 25 - 70cm."
+        },
+        {
+            "ID": "T07",
+            "Name": "Tree of  two Happiness",
+            "Origin": "Southeast Asia and China.",
+            "Take care": "Trees in the wild : Trees can grow up to 18m tall, the tree can flower and bear fruit.",
+            "Image": "img/30.jpg",
+            "Price": "45$",
+            "Desciption": "The happy tree has good vitality, so it can be grown all year round. However, the most suitable time is in the rainy season.\n\nTechniques for planting trees of happiness\nThere are two common growing methods:  growing by seedlings and cuttings."
+        },
+        {
+            "ID": "T08",
+            "Name": "Happy tall Tree",
+            "Origin": "Southeast Asia and China.",
+            "Take care": "Trees in the wild : Trees can grow up to 18m tall, the tree can flower and bear fruit.",
+            "Image": "img/29.jpg",
+            "Price": "50$",
+            "Desciption": "The happy tree has good vitality, so it can be grown all year round. However, the most suitable time is in the rainy season."
+        }
+    ]

@@ -1,0 +1,42 @@
+[
+    
+    {
+        "password": "88888888",
+        "email": "gp@gmail.com",
+        "name":"huynh gia phuoc",
+        "phone":"123456789"
+        
+    },
+    {
+        "password": "password2",
+        "email": "pvy@gmail.com",
+        "name":"vo le phuong vy",
+        "phone":"1234567890"
+    },
+    {
+        "password": "password3",
+        "email": "hg@gmail.com",
+        "name":"cao thi hong gam",
+        "phone":"1234567891"
+    },
+    {
+        "password": "password4",
+        "email": "glac@gmail.com",
+        "name":"phan gia lac",
+        "phone":"1234567892"
+    },
+    {
+        "password": "password5",
+        "email": "pt@gmail.com",
+        "name":"nguyen phu thinh",
+        "phone":"1234567893"
+    },
+    {
+        "password": "password6",
+        "email": "ct@gmail.com",
+        "name":"nguyen thi cam tien",
+        "phone":"1234567894"
+    }
+
+    
+]

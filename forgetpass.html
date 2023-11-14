@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="signup container-fluid">
+        <h2 class="signup_heading">Forget Password</h2>
+        <p class="signup_already">Create New Account ? <a href="#create.html" class="signup_link signup_link-under">Sign
+                Up</a></p>
+        <form class="signup_form" action="" onsubmit="">
+            <div class="form_group">
+                <input type="text" class="form_input" id="txtname">
+                <label for="" class="form_label">Full Name</label>
+            </div>
+            <div class="form_group">
+                <input type="email" class="form_input" id="txtemail">
+                <label for="" class="form_label">Email</label>
+            </div>
+            <div class="form_group">
+                <input type="number" class="form_input" id="txtphone">
+                <label for="" class="form_label">Phone</label>
+            </div>
+            <div class="form_group">
+                <input type="password" class="form_input" id="password">
+                <label for="" class="form_label">Old Password</label>
+            </div>
+            <div class="form_group">
+                <button type="submit" class="form_submit" onclick="checkForget()"><span
+                        class="form_submit-text">Send</span> <i
+                        class="fa fa-long-arrow-right form_submit-icon"></i></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Hope</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="header-contact">
+                <a href="" class="header-email"><i class="fas fa-envelope"></i>deadline@cusc.ctu.edu.vn</a>
+                <a href="" class="header-phone"><i class="fas fa-phone"></i>0292 3731 072</a>
+
+                <img src="img/flagamerica.png" class="header-flag" width="30" height="30" alt="">
+                <img src="img/flagvietnam.png" class="header-flag-vi" width="37" height="37" alt="">
+            </div>
+            <div class="header-menu">
+                <img src="img/logo.png" class="header-logo" alt="">
+                <ul id="nav">
+                    <li><a class="margin-menu sub-menu" href="home.html">Home</a></li>
+                    <li><a class="sub-menu" href="#product.html">Product<i class="fas fa-angle-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="#fengshui.html">Feng Shui Trees</a></li>
+                            <li><a href="#">Stone Lotus</a></li>
+                            <li><a href="#aquanticplant.html">Aquatic Plant</a></li>
+                            <li><a href="#convolve.html">Convolve</a></li>
+                            <li><a href="#officetreedetail.html">Office Tree</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="sub-menu" href="#factory.html">Factory<i class="fas fa-angle-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="#proplant.html">ProPlant</a></li>
+                            <li><a href="#goodtrees.html">GoodTrees</a></li>
+                            <li><a href="#prelotus.html">PreLotus</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a class="sub-menu" href="#contact.php">Care<i class="fas fa-angle-down"></i></a>
+                        <ul class="subnav">
+                            <li><a href="#">Feng Shui Trees</a></li>
+                            <li><a href="#">Stone Lotus</a></li>
+                            <li><a href="#">Aquatic Plant</a></li>
+                            <li><a href="#">Convolve</a></li>
+                            <li><a href="#">Office Tree</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a class="sub-menu" href="#assess.html">Assess</a></li>
+                    <li><a class="sub-menu" href="#introduce.html">Introduce</a></li>
+                    <li><a class="sub-menu" href="#account.html">Account</a></li>
+                </ul>
+                <div id="mobile-menu" class="mobilemenu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div id="div-load">
+            <div id="slider">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li data-target="#demo" data-slide-to="3"></li>
+                        <li data-target="#demo" data-slide-to="4"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="slider-img" src="img/banner1.png" alt="Los Angeles">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slider-img" src="img/banner2.png" alt="Chicago">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slider-img" src="img/banner4.png" alt="New York">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slider-img" src="img/banner5.jpg" alt="New York">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slider-img" src="img/banner6.jpg" alt="New York">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <div id="search">
+                <div class="container">
+                    <div class="row exp">
+                        <div class="col-lg-12 col-search">
+                            <form>
+                                <input class="search-txt" type="text" placeholder="Key word...">
+                                <a class="btnsearch" href=""><i class="fas fa-search"></i>Search</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="typical-graden">
+                <h6 class="graden-title">Typical Graden</h6>
+                <p class="grader-subtitle">We are very honored, when the pots from the seedling farm have contributed to
+                    creating a relaxing living space for many customers across the country. Farm Seedlings Hope is
+                    pleased
+                    to serve you.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="graden-items">
+                            <img src="img/1.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> KV4, Hiep Thanh, Nga Bay, Hau
+                                Giang
+                            </p>
+                            <p class="graden-area"><b>Area:</b> 200m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pumice pumice, Perlite stone, Vermiculite stone,
+                                Pine
+                                bark, Meaty soil, Coir and Rice husk ash, Rice husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-ver" href="#details.html">Detail</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="graden-items-t">
+                            <img src="img/2.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> 352C 30/4 Street, Xuan Khanh,
+                                Ninh
+                                Kieu, Can Tho</p>
+                            <p class="graden-area"><b>Area:</b> 90m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pine bark, Meaty soil, Coir and Rice husk ash,
+                                Rice
+                                husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-3 local-ver-t" href="#details.html">Detail</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="graden-items-th">
+                            <img src="img/3.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> C5 Mau Than Street, Xuan
+                                Khanh,
+                                Ninh
+                                Kieu, Can Tho</p>
+                            <p class="graden-area"><b>Area:</b> 300m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pumice pumice, Perlite stone, Vermiculite stone,
+                                Pine
+                                bark, Meaty soil, Coir and Rice husk ash, Rice husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> Some types of office plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Betel tree and the vines</p>
+                            <a class="graden-btn btn btn-primary" href="#details.html">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="graden-items-f">
+                            <img src="img/4.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> 166J/9, KV4, An Khanh, Ninh
+                                Kieu,
+                                Can
+                                Tho</p>
+                            <p class="graden-area"><b>Area:</b> 99m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Coir and Rice husk ash, Rice husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-2 local-ver-f" href="">Detail</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="graden-items-fv">
+                            <img src="img/5.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> 29 Tran Viet Chau Street,
+                                Ninh
+                                Kieu,
+                                Can Tho</p>
+                            <p class="graden-area"><b>Area:</b> 250m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pumice pumice, Perlite stone, Vermiculite stone,
+                                Rick
+                                husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-3 local-ver-fv" href="">Detail</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="graden-items-s">
+                            <img src="img/6.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> 158K/6 Nguyen Van Cu Street,
+                                An
+                                Khanh, Ninh Kieu, Can Tho</p>
+                            <p class="graden-area"><b>Area:</b> 60m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pumice pumice, Perlite stone, Vermiculite stone,
+                                Pine
+                                bark, Meaty soil, Coir and Rice husk ash</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-3 local-ver" href="">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="graden-items-sv">
+                            <img src="img/7.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> 156E Mau Than, HAn Phu, Ninh
+                                Kieu,
+                                Can Tho</p>
+                            <p class="graden-area"><b>Area:</b> 200m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pumice pumice, Perlite stone, Pine bark, Meaty
+                                soil,
+                                Coir and Rice husk ash, Rice husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-3 local-ver-t" href="">Detail</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="graden-items-e">
+                            <img src="img/8.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> 183C Nguyen Van Cu, An Khanh,
+                                Ninh
+                                Kieu, Can Tho</p>
+                            <p class="graden-area"><b>Area:</b> 400m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pumice pumice, Perlite stone, Vermiculite stone,
+                                Pine
+                                bark, Meaty soil, Coir and Rice husk ash, Rice husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-ver" href="">Detail</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="graden-items-n">
+                            <img src="img/9.png" class="graden-img" alt="">
+                            <p class="graden-address graden-address-first"><b>Address:</b> KV4, Dai Thanh, Nga Bay, Hau
+                                Giang
+                            </p>
+                            <p class="graden-area"><b>Area:</b> 400m<sup>2</sup></p>
+                            <p class="graden-type"><b>Type of soil:</b> Pine bark, Meaty soil, Coir and Rice husk ash,
+                                Rice
+                                husk, Husk husk</p>
+                            <p class="graden-trees"><b>Type of trees:</b> All small ornamental plants</p>
+                            <p class="graden-main"><b>Main trees:</b> Lotus and Bonsai</p>
+                            <a class="graden-btn btn btn-primary local-3 local-ver-fv" href="">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row achievement">
+                    <div class="col-lg-6">
+                        <div>
+                            <p class="achievement-title">OVER 10 YEARS OF EXPERIENCE US</p>
+                            <p class="achievement-title-sm">HOPE is always there to support and solve promptly for products that are determined to be defective due to the product or have problems arising during the delivery and use of the product, ensure that the products delivered to the customers are always of high quality.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="col-f">
+                            <i class="fas fa-trophy"><span class="number" id="year">10</span></i>
+                            <p class="achievement-content">Founded Year</p>
+                        </div>
+                        <div class="col-f col-spe">
+                            <i class="fas fa-clipboard-list"><span class="number-list" id="graden">1000</span></i>
+                            <p class="achievement-content">Garden List</p>
+                        </div>
+                        <div class="col-t">
+                            <i class="fas fa-users"><span class="number-list" id="customer">1500</span></i>
+                            <p class="achievement-content">Customer</p>
+                        </div>
+                        <div class="col-four">
+                            <i class="fas fa-handshake"><span class="number-list" id="cooperation-agent">300</span></i>
+                            <p class="achievement-content">Cooperation Agent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div>
+                            <p class="graden-title">Popular Places</p>
+                            <p class="places-subtitle">Taking care of environment is not an obligation – Our environment is our life.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="places-col-1">
+                            <p class="places-title">Ha Noi</p>
+                            <p class="places-img-subtitle">Quality products & services are the top factor that the company brings when serving custo...</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="places-col-2">
+                            <p class="places-title">Ho Chi Minh</p>
+                            <p class="places-img-subtitle">Quality products & services are the top factor that the company brings when serving custo...</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="places-col-3">
+                            <p class="places-title">Da Nang</p>
+                            <p class="places-img-subtitle">Quality products & services are the top factor that the company brings when serving custo...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 footer-ver">
+                        <p class="footer-title">Seedling Farm Hope</p>
+                        <p class="footer-title-sm-phone">Phone: <a href="" class="footer-numberphone">0292 3731 072</a>
+                        </p>
+                        <p class="footer-title-sm-email">Email: <a href=""
+                                class="footer-email">deadline@cusc.ctu.edu.vnh</a></p>
+                        <p class="footer-title-sm-add">Address: 1 Ly Tu Trong Street, An Phu Ward, Ninh Kieu District,
+                            Can Tho City 90000 VietNam</p>
+                    </div>
+                    <div class="col-lg-4 footer-ver">
+                        <p class="footer-title-about">About Hope</p>
+                        <p class="footer-title-about-sm-ab"><a href="#contact.html" class="footer-ab">Contact</a></p>
+                        <p class="footer-title-about-sm-ab"><a href="#privacypolicy.html" class="footer-ab">Privacy
+                                Policy</a></p>
+                    </div>
+                    <div class="col-lg-4 footer-ver">
+                        <p class="footer-title-media">Social Media</p>
+                        <a href="https://www.facebook.com/CUSC.CE" class="footer-title-media-sm-fb"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/arena.cantho/" class="footer-title-media-sm-ins"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://aptechcantho.cusc.vn/" class="footer-title-media-sm-go"><i
+                                class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="footer-copy">&copy; 2023 Seedling Farm Hope Can Tho, VietNam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu1 = document.getElementById('mobile-menu');
+        console.log(mobileMenu1);
+        var headerHeight = header.clientHeight;
+
+        //close menu
+        mobileMenu1.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = '650px';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        //auto close click select
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function () {
+                var isParenMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParenMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+
+    <script>
+        $(function () {
+            $("body").on("click", "a", function () {
+                var att = $(this).attr("href");
+                var filter = att.slice(1, att.length);
+                console.log(filter);
+                $("#div-load").load(filter);
+            });
+        });
+    </script>
+    <script>
+        function animateNumber(finalNumber, duration = 5000, startNumber = 0, callback) {
+  let currentNumber = startNumber
+  const interval = window.setInterval(updateNumber, 17)
+  function updateNumber() {
+    if (currentNumber >= finalNumber) {
+      clearInterval(interval)
+    } else {
+      let inc = Math.ceil(finalNumber / (duration / 17))
+      if (currentNumber + inc > finalNumber) {
+        currentNumber = finalNumber
+        clearInterval(interval)
+      } else {
+        currentNumber += inc
+      }
+      callback(currentNumber)
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  animateNumber(10, 3000, 0, function (number) {
+    const formattedNumber = number.toLocaleString()
+    document.getElementById('year').innerText = formattedNumber
+  })
+  
+  animateNumber(1000, 3000, 0, function (number) {
+    const formattedNumber = number.toLocaleString()
+    document.getElementById('graden').innerText = formattedNumber
+  })
+  
+  animateNumber(1500, 3000, 0, function (number) {
+    const formattedNumber = number.toLocaleString()
+    document.getElementById('customer').innerText = formattedNumber
+  })
+
+  animateNumber(300, 3000, 0, function (number) {
+    const formattedNumber = number.toLocaleString()
+    document.getElementById('cooperation-agent').innerText = formattedNumber
+  })
+})
+    </script>
+</body>
+
+</html>

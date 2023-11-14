@@ -1,0 +1,666 @@
+@media(max-width: 740px) {
+
+    /* HOME */
+
+    /* Header */
+    #header {
+        overflow: hidden;
+        height: 100px;
+    }
+
+    .header-contact {
+        height: 40px;
+    }
+
+    .header-email {
+        display: none;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    .header-flag {
+        margin: 0.2em 0 0 40em;
+    }
+
+    .header-flag-vi {
+        margin: 0.1em 0 0 0;
+    }
+
+    .margin-menu {
+        margin-top: 1em;
+    }
+
+    .fa-bars {
+        font-size: 36px;
+    }
+
+    .sub-menu::after {
+        bottom: -5px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: 0;
+    }
+
+    .mobilemenu {
+        padding: 10px 20px;
+        float: right;
+        display: block;
+        margin-top: .2em;
+        cursor: pointer;
+    }
+
+    .mobilemenu:hover {
+        background-color: #5ab503;
+        color: #fff;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav li a {
+        margin-top: .2em;
+    }
+
+    #nav {
+        display: block;
+        width: 90%;
+    }
+
+    .subnav {
+        margin-left: 2em;
+    }
+
+    /* End Header */
+
+    /* Slider */
+    #slider {
+        margin-top: 15%;
+    }
+
+    .slider-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* End Slider */
+
+    /* Searching */
+    .search-txt {
+        margin: 1em 1em 1em 2em;
+    }
+
+    /* End Searching */
+
+    /* Graden */
+    .grader-subtitle {
+        padding: 0 5em;
+    }
+
+    .graden-items,
+    .graden-items-t,
+    .graden-items-th,
+    .graden-items-f,
+    .graden-items-fv,
+    .graden-items-s,
+    .graden-items-sv,
+    .graden-items-e,
+    .graden-items-n {
+        margin-left: 5em;
+        position: relative;
+    }
+
+    .graden-items-f,
+    .graden-items-fv,
+    .graden-items-s,
+    .graden-items-sv,
+    .graden-items-e,
+    .graden-items-n {
+        margin-top: 2em;
+    }
+
+    /* End Graden */
+
+    /* Details.html */
+    .details-title{
+        text-align: center;
+        margin: 0;
+        margin-top: 1em;
+    }
+
+    .details-subtitle{
+        margin: .5em 2em 0 -3em;
+    }
+
+    .detail-destitle,
+    .details-des{
+        margin: 1em 0;
+        text-align: center;
+    }
+
+    .details-des{
+        padding: 0 10px;
+    }
+    /* End Details */
+
+    /* Achievement */
+    .achievement-title {
+        margin-left: 1em;
+    }
+
+    .achievement-title-sm {
+        text-align: center;
+        margin-left: 1.5em;
+    }
+
+    .col-f {
+        margin: -6em 0 0 4em;
+    }
+
+    .col-spe {
+        margin: 1em 0 2em 4em;
+    }
+
+    .col-t {
+        margin: -19em 0 0 22em;
+    }
+
+    .col-four {
+        margin: 1em 0 2em 22em;
+    }
+
+    /* End Achievement */
+
+    /* Places */
+    .places-subtitle {
+        padding: 0;
+    }
+
+    /* End Places */
+
+    /* Footer */
+    #footer {
+        margin-top: 1.5em;
+    }
+
+    .footer-title-about,
+    .footer-title-media {
+        margin: 1.5em 0;
+    }
+
+    .footer-ab {
+        margin: .5em 0;
+    }
+
+    .footer-title-media-sm-fb {
+        margin: .5em 0 0 -8.2em;
+    }
+
+    .footer-ver {
+        margin-left: -5em;
+    }
+
+    /* End Footer */
+
+    /* End Home */
+
+    /* Contact */
+    .email-c,
+    .contact-booking {
+        display: none;
+    }
+
+    .contact-local {
+        margin-left: 6em;
+    }
+
+    /* End Contact */
+
+    /* Product.html */
+    .mucluc{
+        display: none;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .list-product{
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .feng-1{
+        margin: -10em 0 0 1em;
+    }
+
+    .feng-2{
+        margin: -41em 0 0 23.5em;
+    }
+
+    .feng-3{
+        margin: -10em 0 0 1em;
+    }
+
+    .feng-4{
+        margin: -41.2em 0 0 23.5em;
+    }
+
+    .feng-5{
+        margin: -10em 0 0 1em;
+    }
+
+    .feng-6{
+        margin: -41.2em 0 0 23.5em;
+    }
+
+    .feng-7{
+        margin: -10em 0 0 1em;
+    }
+
+    .feng-8{
+        margin: -41.2em 0 0 23.5em;
+    }
+
+    .feng-9{
+        margin: -10em 0 0 1em;
+    }
+
+    /* Fengshui.html */
+    .fix-col{
+        margin-left: 10.5em;
+        margin-bottom: 0;
+    }
+
+    .fengshui{
+        margin-top: -10.5em;
+    }
+
+
+    /* Product */
+
+    /* Factory.html */
+    .factory-div{
+        margin-left: 8.5em;
+    }
+    /* End Factory */
+
+    /* ProPlant.html */
+    .factory-content
+    /* End ProPlant */
+
+    /* Assess.html */
+    .rating {
+        margin-left: 31em;
+    }
+
+    .form-container {
+        margin-left: 12em;
+    }
+
+    /* End Assess.html */
+
+    /* Introduce.html */
+    .textphongthuy01 {
+        padding: .5em 1em;
+    }
+
+    .phongthuy {
+        width: 100%;
+    }
+
+    .fengshuitrees {
+        margin-top: .5em;
+        text-align: center;
+    }
+
+    .textphongthuy {
+        padding: 0 .5em;
+        text-align: center;
+    }
+
+    /* End Introduce */
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* HOME */
+
+    /* Header */
+    .header-email {
+        margin-left: -6em;
+    }
+
+    .header-logo {
+        margin: .5em 0 0 2em;
+    }
+
+    .header-flag {
+        margin-left: 32em;
+    }
+
+    .margin-menu {
+        margin-left: -5em;
+    }
+
+    #nav li a {
+        padding: 0 15px;
+    }
+
+    /* End Header */
+
+    /* Slider */
+    .slider-img {
+        width: 100%;
+        margin-top: 4em;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: 0;
+    }
+
+    /* End Slider */
+
+    /* Searching */
+    .exp {
+        margin: 0 0;
+    }
+
+    .col-search {
+        margin: 1em 0;
+    }
+
+    .search-txt {
+        margin: 1em 1em 1em 10em;
+    }
+
+    /* End Searching */
+
+    /* Graden */
+    .graden-items,
+    .graden-items-t,
+    .graden-items-th,
+    .graden-items-f,
+    .graden-items-fv,
+    .graden-items-s,
+    .graden-items-sv,
+    .graden-items-e,
+    .graden-items-n {
+        width: 300px;
+    }
+
+    .graden-img {
+        width: 300px;
+    }
+
+    .local-ver {
+        margin-top: 3.5em;
+    }
+
+    .local-ver-t {
+        margin-top: 5em;
+    }
+
+    .local-ver-f {
+        margin-top: 8em;
+    }
+
+    .local-ver-fv {
+        margin-top: 6.5em;
+    }
+
+    .grader-subtitle{
+        padding: 0 9em;
+    }
+
+    /* End Graden */
+
+    /* Details.html */
+    .details-col{
+        display: none;
+    }
+
+    .details-title{
+        font-size: 18px;
+        margin-top: 9em;
+        margin-left: 7em;
+    }
+
+    .details-subtitle{
+        margin-left: .5em;
+    }
+
+    .detail-destitle{
+        margin-bottom: .5em;
+    }
+
+    /* End Details */
+
+    /* Achievement */
+    .achievement {
+        margin-top: 3em;
+    }
+
+    .achievement-title {
+        margin: 3em 0 .5em 1em;
+        font-style: 24px;
+    }
+
+    .achievement-title-sm {
+        padding: 0;
+        margin: 2em 0 10em 2em;
+    }
+
+    .col-f,
+    .col-t,
+    .col-four {
+        padding: 10px 30px 20px 10px;
+        margin: 5em 0 0 1em;
+        width: 45%;
+    }
+
+    .number-list {
+        margin-left: .3em;
+    }
+
+    .col-t {
+        margin: -20.9em 0 0 15em;
+    }
+
+    .col-four {
+        margin-left: 15em;
+    }
+
+    /* End Achievement */
+
+    /* Places */
+    .places-title {
+        padding-top: 16em;
+    }
+
+    /* End Places */
+
+    /* Footer */
+    /* End Footer */
+
+    /* Product.html */
+    .mucluc{
+        display: block;
+        margin-left: 10em;
+    }
+
+    .cotegory{
+        display: block;
+        margin-left: 5em;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .list-product{
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .feng-1{
+        margin: 0 0 0 1em;
+    }
+
+    .feng-2{
+        margin: -41.1em 0 0 38em;
+    }
+
+    .feng-3{
+        margin: -11em 0 0 16.6em;
+    }
+
+    .feng-4{
+        margin: -41.2em 0 0 38em;
+    }
+
+    .feng-5{
+        margin: -11em 0 0 16.6em;
+    }
+
+    .feng-6{
+        margin: -41.2em 0 0 38em;
+    }
+
+    .feng-7{
+        margin: -11em 0 0 1em;
+    }
+
+    .feng-8{
+        margin: -41.2em 0 0 38em;
+    }
+
+    .feng-9{
+        margin: -11em 0 0 16.6em;
+    }
+
+    /* Fengshui */
+    .fix-col{
+        margin-right: 8em;
+        margin-left: 5em;
+    }
+
+    .fen-fix{
+        margin-top: -10.5em;
+    }
+
+    /* Product */
+
+    /* Contact */
+    .contact-local {
+        padding: 0 36px;
+    }
+
+    /* End Contact */
+
+    /* Product.html */
+    .col-fengshui-first{
+        margin: -50em -20em 0 0;
+    }
+
+    .product-card{
+        margin-left: 20em;
+    }
+
+    div.col-lg-3{
+        display: inline-block;
+    }
+
+    a.mucluc{
+        display: none;
+    }
+    /* Product */
+
+    /* Factory.html */
+    .factory-div{
+        margin-left: 1.5em;
+    }
+
+    .factory-subtitle{
+        padding: .5em .5em;
+    }
+    /* End Factory */
+
+    /* Assess.html */
+    .rating {
+        margin-left: 40em;
+    }
+
+    .form-container {
+        margin-left: 22em;
+    }
+
+    /* End Assess.html */
+
+    /* Introduce.html */
+    .textphongthuy01 {
+        padding: .5em 1em;
+    }
+
+    .phongthuy {
+        width: 100%;
+    }
+
+    
+
+    /* End Introduce */
+    /* End Home */
+}
+
+@media (min-width: 1024px) {
+    /* HOME */
+
+    /* Header */
+    .header-email {
+        margin-left: 5em;
+    }
+
+    .header-logo {
+        margin-left: 7.5em;
+    }
+
+    .header-flag {
+        margin-left: 46%;
+    }
+
+    /* End Header */
+
+    /* Slider */
+
+    /* End Slider */
+
+    /* Searching */
+
+    /* End Searching */
+
+    /* Graden */
+
+    /* End Graden */
+
+    /* Footer */
+
+    /* End Footer */
+
+    /* Product.html */
+
+    /* Product */
+
+    /* Factory.html */
+
+    /* End Factory */
+
+    /* End Home */
+}

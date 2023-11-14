@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="Assess-title">ASSESS</p>
+ 
+    <div class="rating">
+        <input value="star-1" name="star-radio" id="star-1" type="radio">
+        <label for="star-1">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+        </label>
+        <input value="star-1" name="star-radio" id="star-2" type="radio">
+        <label for="star-2">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+        </label>
+        <input value="star-1" name="star-radio" id="star-3" type="radio">
+        <label for="star-3">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+        </label>
+        <input value="star-1" name="star-radio" id="star-4" type="radio">
+        <label for="star-4">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+        </label>
+        <input value="star-1" name="star-radio" id="star-5" type="radio">
+        <label for="star-5">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path></svg>
+        </label>
+      </div>  
+       <div class="form-container">
+        <form class="form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="email" name="email" required="">
+              </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required="">
+          </div>
+          <div class="form-group">
+            <label for="textarea">Please enter your feedback:</label>
+            <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+          </div>
+          <button class="form-submit-btn" type="submit">Submit</button>
+        </form>
+      </div>
+</body>
+<script>
+    var header = document.getElementById('header');
+    var mobileMenu1 = document.getElementById('mobile-menu');
+    console.log(mobileMenu1);
+    var headerHeight = header.clientHeight;
+
+    //close menu
+    mobileMenu1.onclick = function () {
+        var isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+            header.style.height = '570px';
+        } else {
+            header.style.height = null;
+        }
+    }
+
+    //auto close click select
+    var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+    for (var i = 0; i < menuItems.length; i++) {
+        var menuItem = menuItems[i];
+
+        menuItem.onclick = function () {
+            var isParenMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+            if (isParenMenu) {
+                event.preventDefault();
+            } else {
+                header.style.height = null;
+            }
+        }
+    }
+</script>
+
+<script>
+    $(function () {
+        $("body").on("click", "a", function () {
+            var att = $(this).attr("href");
+            var filter = att.slice(1, att.length);
+            console.log(filter);
+            $("#div-load").load(filter);
+        });
+    });
+</script>
+<script>
+    
+</script>
+</html>
